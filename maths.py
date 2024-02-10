@@ -1,3 +1,2 @@
-a=5
-b=8
-print ("a*b")
+a="hello world"
+print(type(a))
