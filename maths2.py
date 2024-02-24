@@ -1,7 +1,8 @@
 # range(start(optinal), end(required), step(optinal))
 
-lst=(1,2,4,5,8)
+lst=(1, 2,8, 11,22)
 
 for l in lst: #string, list, tuple, set, dictionary, range
-    print(l)
+   if l%2 !=0:
+    print(l*2)
     # lst o'zgaruvchilarno chiqar
